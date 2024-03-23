@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/About-TextVerse/static/css/main.50ef9034.css",
+    "main.js": "/About-TextVerse/static/js/main.db94f7b4.js",
+    "static/js/453.62b80524.chunk.js": "/About-TextVerse/static/js/453.62b80524.chunk.js",
+    "index.html": "/About-TextVerse/index.html",
+    "main.50ef9034.css.map": "/About-TextVerse/static/css/main.50ef9034.css.map",
+    "main.db94f7b4.js.map": "/About-TextVerse/static/js/main.db94f7b4.js.map",
+    "453.62b80524.chunk.js.map": "/About-TextVerse/static/js/453.62b80524.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50ef9034.css",
+    "static/js/main.db94f7b4.js"
+  ]
+}
