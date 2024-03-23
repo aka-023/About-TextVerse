@@ -11,13 +11,13 @@ export default function Navbar(props) {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className={`nav-link active text-${props.mode === 'light'?'dark':'light'}`} aria-current="page" href='/'>Home</a>
+          <a className={`nav-link active text-${props.mode === 'light'?'dark':'light'}`} aria-current="page" href='https://aka-023.github.io/Home-TextVerse/'>Home</a>
         </li>
         <li className="nav-item">
-          <a className={`nav-link text-${props.mode === 'light'?'dark':'light'}`} href='/about'>About</a>
+          <a className={`nav-link text-${props.mode === 'light'?'dark':'light'}`} href='https://aka-023.github.io/About-TextVerse/'>About</a>
         </li>
         <li className="nav-item">
-          <a className={`nav-link text-${props.mode === 'light'?'dark':'light'}`} href='/contact'>Contact</a>
+          <a className={`nav-link text-${props.mode === 'light'?'dark':'light'}`} href='https://aka-023.github.io/Contact-TextVerse/'>Contact</a>
         </li>
       </ul>
       <div className="form-check form-switch">
