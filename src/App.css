@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.app-container {
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* .navbar-custom-dark {
+  background-color: blue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-custom-dark{
+  background-color: blue;
+  color: white;
+} */
+
+.heading{
+  position: absolute;
+  top: 20%;
+  left: 33%;
+  text-align: center;
+  color: beige;
+  cursor: pointer;    
+  text-shadow: 5px 0px 6px gold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.explore-container {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0.1rem 0.4rem;
+  cursor: pointer;
+  background-color: beige;
+  opacity: 0.8;
+}
+.explore-container a{
+  text-decoration: none;
+  color: rgb(168, 47, 128);
+}
+
+.explore-container:hover{
+  opacity: 0.7;
+  transition: 0.25s ease-in-out;
+}
+
+.card-container-heading{
+  padding-top: 2rem;
+  width: 20%;
+  margin: auto;
+  /* color: rgb(196, 90, 161);
+  text-shadow:  2.5px 0px 1.5px lightcoral; */
+}
+
+.contact-content{
+  display: flex;   
+}
+
+.about{
+  width:13vw;
+  margin: auto;
+  padding:  1.5rem 0 0 0;
+}
+
+.about-team{
+  width: 25vw;
+  margin: auto;
 }
